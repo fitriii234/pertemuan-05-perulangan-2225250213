@@ -1,0 +1,13 @@
+# 04 - Hitung Bilangan Genap
+
+print("=== HITUNG BILANGAN GENAP ===")
+
+n = int(input("Masukkan bilangan n: "))
+
+jumlah_genap = 0
+
+for i in range(1, n + 1):
+    if i % 2 == 0:
+        jumlah_genap += 1
+
+print(f"Jumlah bilangan genap dari 1 sampai {n} = {jumlah_genap}")
